@@ -14,8 +14,8 @@ for i in range(n):
 for b in range(4):
   for f in range(3):
     h_str = [str(i) for i in house[b][f]]
-    print(" ",end="")
-    print(" "," ".join(h_str))
+    print("",end="")
+    print(""," ".join(h_str))
   if b == 3:
     break
   print("#"*20)
